@@ -1,0 +1,684 @@
+﻿<!doctype html>
+ <html>
+  <head>
+  <meta charset="utf-8">
+   <title>Proyecto</title>
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--grupo CSS-->
+    <link rel="stylesheet" href="estilos-goa.css"/>
+    <link rel="stylesheet" href="css/tema-app10.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+	
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+    
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    
+    </head>
+
+   <body onLoad="MM_preloadImages('imagenes/img5.jpg','imagenes/img10.jpg','imagenes/pers2.jpg' ,'imagenes/mueo.jpg','imagenes/museo2.jpg','imagenes/muse3.jpg')">
+   
+     <div data-role="page" id="Principal" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+       <h1> DÍA DE LA TIERRA </h1>
+      </div>
+       <div data-role="main" class="ui-content">
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/img1.png" alt="img1" title="img1" id="wows1_0"/></li>
+		<li><img src="data1/images/img2.jpg" alt="img2" title="img2" id="wows1_1"/></li>
+		<li><img src="data1/images/img3.jpg" alt="img3" title="img3" id="wows1_2"/></li>
+		<li><img src="data1/images/img4.jpg" alt="img4" title="img4" id="wows1_3"/></li>
+		<li><img src="data1/images/img5.jpg" alt="img5" title="img5" id="wows1_4"/></li>
+		<li><img src="data1/images/img6.jpg" alt="img6" title="img6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/img7.jpg" alt="http://wowslider.com/" title="img7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/img8.png" alt="img8" title="img8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="img1"><span><img src="data1/tooltips/img1.png" alt="img1"/>1</span></a>
+		<a href="#" title="img2"><span><img src="data1/tooltips/img2.jpg" alt="img2"/>2</span></a>
+		<a href="#" title="img3"><span><img src="data1/tooltips/img3.jpg" alt="img3"/>3</span></a>
+		<a href="#" title="img4"><span><img src="data1/tooltips/img4.jpg" alt="img4"/>4</span></a>
+		<a href="#" title="img5"><span><img src="data1/tooltips/img5.jpg" alt="img5"/>5</span></a>
+		<a href="#" title="img6"><span><img src="data1/tooltips/img6.jpg" alt="img6"/>6</span></a>
+		<a href="#" title="img7"><span><img src="data1/tooltips/img7.jpg" alt="img7"/>7</span></a>
+		<a href="#" title="img8"><span><img src="data1/tooltips/img8.png" alt="img8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+	<div>
+     <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+       	<h1>22 de abril "Día Mundial de la Tierra" </h1>
+         <div>
+          <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/img5.jpg',1)"><img src="imagenes/img4.jpg" width="31%" height="40%" id="Image10"></a>
+        
+	     </div>
+       <p>El 22 de abril de cada año se celebra el Día Mundial de la Tierra. Su origen en 1970 establece el inicio del movimiento ambientalista moderno, cuando 20 millones de norteamericanos tomaron las calles, parques y auditorios para manifestarse por un ambiente saludable y sustentable.
+
+Desde sus inicios, el Día de la Tierra logró una coincidencia política que parecía imposible, contando con el apoyo de distintas tendencias y posición económica, así como personas comunes, magnates y líderes sindicales.
+
+La celebración mundial condujo a la creación de la Agencia de Protección Ambiental (EPA) de Estados Unidos de Norteamérica, así como la aprobación de leyes relacionadas con el aire y el agua limpia, y la conservación de especies en peligro de extinción.
+Las Naciones Unidas reconocen que la Tierra y sus ecosistemas son el hogar de la humanidad. Asimismo, afirman que para alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras es necesario promover la armonía con la naturaleza y la Tierra. Es por esto que se decidió designar el 22 de Abril como el “Día Internacional de la Madre Tierra”. 
+<div align="center"><img src="imagenes/img22.png" width="40%" height="40%">
+   		   </div>      
+       <p>       
+         </div>
+	    </div>
+   
+          <div data-role="collapsible" data-content-theme="false">
+       	<h1 align="center">22 de mayo "Día Internacional de la Biodiversidad"</h1>
+         <div>
+           <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img20','','imagenes/img20.jpg',1)"><img src="imagenes/img1.png" width="31%" height="40%" id="img20"></a>
+       		
+          </div>
+        
+       <p align="center">En el año 1994, la Asamblea de la Organización de las Naciones Unidas declaró el 22 de mayo como Día Mundial de la Diversidad Biológica al entrar en vigor el Convenio sobre este tema. 
+El investigador alemán Alexander von Humboldt fue uno de los primeros en dedicarse a la diversidad biológica y según una cita suya de 1845: "Una apreciación equitativa de todas las partes del estudio de la naturaleza, es más que todo una necesidad del tiempo actual, en el cual la riqueza material y el aumento del bienestar de las naciones, debe estar basada en la utilización más cuidadosa de los productos de la naturaleza y de las fuerzas naturales...".
+Pese a firmar hace 10 años el Convenio de Diversidad Biológica y dotarse de los instrumentos necesarios para desarrollar medidas de conservación de la biodiversidad, tales como la Estrategia Española de Biodiversidad, en nuestro país, la gestión sobre este tema se mantiene en un inmovilismo legislativo.
+En virtud del Convenio sobre la Diversidad Biológica y la Convención Marco de las Naciones Unidas sobre el Cambio Climático, la comunidad internacional se comprometió a conservar la diversidad biológica y a luchar contra el cambio climático. La respuesta mundial a estos desafíos tiene que ser mucho más rápida y más firme a todos los niveles —mundial, nacional y local. Por nuestro bien y el de las generaciones futuras, debemos alcanzar los objetivos fijados en esos instrumentos trascendentales.
+        <div>
+       		 <div align="center"><img src="imagenes/img7.jpg" width="40%" height="40%">
+   		      </div>
+        </div>
+      
+       </div>
+	    </div>
+       
+        
+         <div data-role="collapsible" data-content-theme="false">
+       	<h1 align="center">Conciencia ecológica</h1>
+         <div>
+          <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img20','','imagenes/img5.jpg',1)"><img src="imagenes/img19.jpg" width="31%" height="40%" id="img20"></a>
+         </div>
+       <p align="center">A partir del momento en que el hombre comenzó a apropiarse de la naturaleza para darle forma a sus necesidades y caprichos, los ecosistemas de todo el planeta dieron su respuesta ante este tipo de abusos, a través de consecuencias negativas como la contaminación y la pérdida de biodiversidad.
+       tener conciencia ecológica es entender que somos dependientes de la naturaleza y responsables por su estado de conservación. Ignorar esta verdad equivale a autodestruirnos, porque al degradar el medio ambiente estamos empeorando nuestra calidad de vida y poniendo en peligro el futuro de nuestros descendientes.
+
+Al contrario de lo que se podría pensar, desarrollo económico y conciencia ecológica no tienen por qué ser antónimos. Se puede producir de manera sustentable, fomentar la generación de energías limpias, reducir y reciclar la basura y reutilizar un gran número de materiales que producirán nuevos productos útiles para el día a día del hombre moderno.
+
+	<div align="center"><img src="imagenes/img10.jpg" width="40%" height="40%">
+   		   </div>
+        
+	  </div> 
+        </div> 
+        </div> 
+        
+        <div>
+         <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+          <li class="ui-first-child ui-last-child">
+          <a href="#page1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>¿CÓMO CUIDAR EL PLANETA?</h2>
+          </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+          <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>CONTAMINACIÓN</h2>
+          </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+          <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>TRATADOS Y CONVENIOS </h2>
+          <h2>PARA EL CUIDADO DEL AMBIENTE </h2>
+          </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+          <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>HUELLA ECOLÓGICA</h2>
+          </a>
+          </li>
+            <li class="ui-first-child ui-last-child">
+          <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>DESARROLLO SUSTENTABLE </h2>
+          </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+          <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>IMPACTO AMBIENTAL</h2>
+          </a>
+          </li>
+           <li class="ui-first-child ui-last-child">
+          <a href="#page7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2> CALENTAMIENTO GLOBAL </h2>
+          </a>
+          </li>
+           <li class="ui-first-child ui-last-child">
+          <a href="#page8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>ECOLOGÍA  AMBIENTAL</h2>
+          </a>
+          </li>
+          
+         <div data-role="content" align="center">
+           <div style="width:40%;">
+	<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+			<li class="ui-first-child ui-last-child">
+				<a href="datos.html" target="_self"  data-role="button" >
+					<h2>DATOS </h2>
+				</a>
+				</li>
+	</ul>
+		</div>
+			</div>
+          
+          </ul>
+         </div>
+          </div>
+           </div>
+ 
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     	 <div>
+       		 <img src="res/android/mdpi.png" width="46" height="46">
+      	</div>
+      <div>
+        <h4>CUIDEMOS AL PLANETA</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+      </div>
+     </div>
+    </div>
+
+	
+                <div data-role="page" id="page1" data-theme="b">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>¿Cómo cuidar el planeta?</h1>
+         </div>
+         <div data-role="main" class="ui-conten">
+         <div>
+         <div>
+       		 <div align="center"><img src="imagenes/img18.JPEG" width="40%" height="40%">
+   		   </div>
+         </div>
+ 
+        	  Hay muchas formas de combatir la contaminación, y legislaciones internacionales que regulan las emisiones contaminantes de los países que adhieren estas políticas. La contaminación está generalmente ligada al desarrollo económico y social. Actualmente muchas organizaciones internacionales como la ONU ubican al desarrollo sostenible como una de las formas de proteger al medioambiente para las actuales y futuras generaciones. 
+             <h2>Consejos para cuidar el planeta</h2>  
+              <div align="center"><img src="imagenes/img19.jpg"width="40%" height="40%"></div>
+              Es muy importante que todos tomemos conciencia de la importancia que tiene cuidar nuestro planeta y nuestros recursos.  En esta página, te mostraremos muchos consejos útiles que te servirán para este fin.
+
+Utiliza Menos Agua
+
+Ahorra agua siempre que puedas.
+Siempre que puedas, recolecta y reutiliza el agua.
+Mantén cerrado el grifo mientras no necesites el agua que sale para no desperdiciar el agua.
+Riega por la mañana o bien tarde para que el agua no se evapore enseguida.
+Ahorra Energía Eléctrica
+
+Apaga las luces.
+Utiliza bombillas de bajo consumo.
+Evita utilizar electrodomésticos y energía innecesariamente.
+Usa menos el aire acodiciando, los calentadores eléctricos y la calefacción
+Desconecta los aparatos eléctricos y los electrodomésticos.
+Aprovechar la luz natural.
+Contamina Menos
+
+Utiliza menos el coche.
+Siempre que puedas, utiliza el transporte público.
+Ahorra combustible.
+Gasta menos gas.
+Recicla todo lo que puedas
+
+Cuida y reutiliza las hojas de papel.
+Recicla tu basura y todo lo que puedas.
+Separa la basura.
+Compra productos reciclados.
+Evita usar recipientes de aluminio y de plástico.
+Genera menos desperdicios
+
+Utiliza pilas recargables.
+Evita usar productos desechables.
+Si tienes que comprar botellas desechables, compra botellas más grandes
+Evitar utilizar bolsas de plástico cuando puedas utilizar otras.
+
+
+
+<div data-role="content" align="center">
+           <div style="width:40%;">
+	<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+			<li class="ui-first-child ui-last-child">
+				<a href="http://www.utel.edu.mx/blog/10-consejos-para/10-consejos-para-cuidar-el-medio-ambiente/" target="_self" data-role="button" >
+					<h2>Más Info...</h2>
+				</a>
+			</li>
+	</ul>
+		</div>
+			</div>
+         </div>
+         </div>
+          <div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+           <h4>CUIDEMOS AL PLANETA</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+       </div>
+       </div>
+       
+        <div data-role="page" id="page2" data-theme="b">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>CONTAMINACIÓN </h1>
+         </div>
+         <div data-role="main" class="ui-conten">
+         <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/img9.jpg" alt="img9" title="img9" id="wows2_0"/></li>
+		<li><img src="data2/images/img10.jpg" alt="img10" title="img10" id="wows2_1"/></li>
+		<li><img src="data2/images/img11.jpg" alt="img11" title="img11" id="wows2_2"/></li>
+		<li><img src="data2/images/img12.jpg" alt="img12" title="img12" id="wows2_3"/></li>
+		<li><img src="data2/images/img13.jpg" alt="img13" title="img13" id="wows2_4"/></li>
+		<li><img src="data2/images/img14.jpg" alt="img14" title="img14" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/img15.jpg" alt="bootstrap slider" title="img15" id="wows2_6"/></a></li>
+		<li><img src="data2/images/img17.jpg" alt="img17" title="img17" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="img9"><span><img src="data2/tooltips/img9.jpg" alt="img9"/>1</span></a>
+		<a href="#" title="img10"><span><img src="data2/tooltips/img10.jpg" alt="img10"/>2</span></a>
+		<a href="#" title="img11"><span><img src="data2/tooltips/img11.jpg" alt="img11"/>3</span></a>
+		<a href="#" title="img12"><span><img src="data2/tooltips/img12.jpg" alt="img12"/>4</span></a>
+		<a href="#" title="img13"><span><img src="data2/tooltips/img13.jpg" alt="img13"/>5</span></a>
+		<a href="#" title="img14"><span><img src="data2/tooltips/img14.jpg" alt="img14"/>6</span></a>
+		<a href="#" title="img15"><span><img src="data2/tooltips/img15.jpg" alt="img15"/>7</span></a>
+		<a href="#" title="img17"><span><img src="data2/tooltips/img17.jpg" alt="img17"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+         <div>
+         <div data-role="content" align="center">
+		  <div data-role="collapsible" data-content-theme="false">
+       <h2>DEFINICIÓN</h2>
+        <div align="center"><img src="imagenes/img3.jpg" width="40%" height="40%">
+   		   </div>
+           
+           La contaminación es la introducción de sustancias u otros elementos físicos en un medio que provocan que éste sea inseguro o no apto para su uso.1 El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad).
+
+Es siempre una alteración negativa del estado natural del medio, y por lo general, se genera como consecuencia de la actividad humana considerándose una forma de impacto ambiental.
+
+La contaminación puede clasificarse según el tipo de fuente de donde proviene, o por la forma de contaminante que emite o medio que contamina. Existen muchos agentes contaminantes entre ellos las sustancias químicas (como plaguicidas, cianuro, herbicidas y otros.), los residuos urbanos, el petróleo, o las radiaciones ionizantes. Todos estos pueden producir enfermedades, daños en los ecosistemas o el medioambiente. Además existen muchos contaminantes gaseosos que juegan un papel importante en diferentes fenómenos atmosféricos, como la generación de lluvia ácida, el debilitamiento de la capa de ozono, y el cambio climático.
+
+     
+       </div>
+       
+       <div data-role="collapsible" data-content-theme="false">
+       <h2>CONTAMINACIÓN ATMOSFÉRICA. </h2>
+       <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/img15.jpg',1)"><img src="imagenes/img11.jpg" width="31%" height="40%" id="Image15"></a>
+ 
+   		   </div>
+     Consiste en la liberación de sustancias químicas y partículas en la atmósfera alterando su composición y suponiendo un riesgo para la salud de las personas y de los demás seres vivos. Los gases contaminantes del aire más comunes son el monóxido de carbono, el dióxido de azufre, los clorofluorocarbonos y los óxidos de nitrógeno producidos por la industria y por los gases producidos en la combustión de los vehículos. Los fotoquímicos como el ozono y el esmog se aumentan en el aire por los óxidos del nitrógeno e hidrocarburos y reaccionan a la luz solar. El material particulado o el polvo contaminante en el aire se mide por su tamaño en micrómetros, y es común en erupciones volcánicas. La contaminación atmosférica puede tener un carácter local, cuando los efectos ligados al foco de emisión afectan solo a las inmediaciones del mismo, o un carácter global, cuando las características del contaminante afectan al equilibrio del planeta y zonas muy distantes a los focos emisores, ejemplos de esto son la lluvia ácida y el calentamiento global.
+
+       </div>
+       
+       <div data-role="collapsible" data-content-theme="false">
+       <h2>CONTAMINACIÓN HÍDRICA</h2>
+       <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/img25.png',1)"><img src="imagenes/img23.jpg" width="31%" height="40%" id="Image25"></a>
+    
+   		   </div>
+    Se da por la liberación de residuos y contaminantes que drenan a las escorrentías y luego son transportados hacia ríos, penetrando en aguas subterráneas o descargando en lagos o mares. Por derrames o descargas de aguas residuales, eutrofización o descarga de basura. O por liberación descontrolada del gas de invernadero CO2 que produce la acidificación de los océanos. Los desechos marinos son desechos mayormente plásticos que contaminan los océanos y costas, algunas veces se acumulan en alta mar como en la gran mancha de basura del Pacífico Norte. Los derrames de petróleo en mar abierto por el hundimiento o fugas en petroleros y algunas veces derrames desde el mismo pozo petrolero.
+
+
+       </div>
+       
+       <div data-role="collapsible" data-content-theme="false">
+       <h2>CONTAMINACIÓN SUELO </h2>
+       <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/img24.jpg',1)"><img src="imagenes/img14.jpg" width="31%" height="40%" id="Image24"></a>
+        
+   		   </div>
+     Ocurre cuando productos químicos son liberados por un derrame o filtraciones sobre y bajo la tierra. Entre los contaminantes del suelo más significativos se encuentran los hidrocarburos como el petróleo y sus derivados, los metales pesados frecuentes en baterías, el Metil tert-butil éter (MTBE),13 los herbicidas y plaguicidas generalmente rociados a los cultivos industriales y monocultivos y organoclorados producidos por la industria. También los vertederos y cinturones ecológicos que entierran grandes cantidades de basura de las ciudades. Esta contaminación puede afectar a la salud de forma directa y al entrar en contacto con fuentes de agua potable.
+
+       </div>
+       
+       <div data-role="collapsible" data-content-theme="false">
+       <h2>CONTAMINACIÓN ACÚSTICA </h2>
+       <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/img27.jpg',1)"><img src="imagenes/img26.gif" width="31%" height="40%" id="Image27"></a>
+   
+   		   </div>
+     Se llama contaminación acústica o contaminación sonora al exceso de sonido que altera las condiciones normales del ambiente en una determinada zona. Si bien el ruido no se acumula, traslada o mantiene en el tiempo como las otras contaminaciones, también puede causar grandes daños en la calidad de vida de las personas si no se controla bien o adecuadamente.
+     El término "contaminación acústica" hace referencia al ruido (entendido como sonido excesivo y molesto), provocado por las actividades humanas (tráfico, industrias, locales de ocio, aviones, barcos, entre otros.) que produce efectos negativos sobre la salud auditiva, física y mental de los seres vivos.
+
+       </div>
+       
+         </div>
+        	 </div>
+         
+         </div>
+         
+         
+          <div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+           <h4>CUIDEMOS AL PLANETA</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+       </div>
+       </div>
+       </div>
+       
+         <div data-role="page" id="page3" data-theme="b">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1> Convenios y tratados </h1>
+     
+         </div>
+         <div data-role="main" class="ui-conten">
+         
+         <div align="center"><img src="imagenes/img6.jpg"width="40%" height="40%"></div>
+          <p>Los Tratados Internacionales con incidenciaambiental constituyen una fuente importante deDerecho Ambiental Internacional y contribuyena la generación de las políticas de cada naciónen este tema. Cada país ha suscrito gran parte delos tratados internacionales sobre medio ambiente,los que han sido ratificados por cada país,promulgados y publicados.
+</p>
+          <p>Convenio de Estocolmo sobre Contaminantes Orgánicos Persistentes
+
+<li>Protocolo de Cartagena sobre Seguridad de la Biotecnología
+
+<li>Convenio de Rotterdam sobre el Procedimiento de ConsentimientoFundamentado aplicable a ciertos Plaguicidas y ProductosQuímicos Peligrosos, objeto de comercio internacional
+<li>Protocolo de Kioto
+
+<li>Convención de las Naciones Unidas de lucha contra la desertificaciónen los países afectados por sequía grave o desertificación, en particular enÁfrica
+
+<li>Convenio sobre Diversidad Biológica
+<li>
+Convención Marco de las Naciones Unidas sobre Cambio Climático
+<li>
+Convenio de Basilea para el Control de los Movimientos Transfronterizos de Desechos Peligrosos y su Eliminación
+<li>
+Convención para la Protección de la flora, la fauna y las bellezas escénicasnaturales de América
+<li>
+Convenio Internacional para la regulación de la caza de la ballena
+<li>
+Convenio sobre zonas húmedas de Importancia Internacional,especialmente como hábitat de aves acuáticas.
+<li>
+Convención sobre Conservación de Focas Antárticas
+<li>
+Convención sobre el Comercio Internacional de EspeciesAmenazadas de Fauna y Flora Silvestre.
+<li>
+Convenio sobre la conservación de especies migratorias de lafauna salvaje
+<li>
+Convención para la Conservación de los Recursos Vivos MarinosAntárticos
+<li>
+Convenio para la protección del medio ambiente y la zona costeradel Pacífico Sudeste
+<li>
+Acuerdo sobre la cooperación regional para el combate contra lacontaminación del Pacífico Sudeste por hidrocarburos y otrassustancias nocivas en caso de emergencia
+<li>
+Convenio de Viena para la Protección de la Capa de Ozono
+<li>
+Protocolo de Montreal relativo a las sustancias agotadoras de lacapa de ozono</p>
+
+<div align="center"><img src="imagenes/img4.jpg"width="40%" height="40%">
+   		   </div>
+
+  
+  <div data-role="content" align="center">
+    <div style="width:40%;">
+      <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+        <li class="ui-first-child ui-last-child">
+          <a href="https://es.scribd.com/doc/27031900/CONVENIOS-Y-TRATADOS" target="_self" data-role="button" >
+            <h2>Más Info...</h2>
+            </a>
+          </li>
+        </ul>
+      </div>
+  </div>
+  
+  <div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <h4>CUIDEMOS AL PLANETA</h4>
+      <h4>YAZMIN LUNA CASTELLANOS</h4>
+      <img src="res/android/mdpi.png" width="46" height="46">
+      </div>
+  </div>
+ </div>
+         </div>
+         
+          <div data-role="page" id="page4" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>HUELLA ECOLÓGICA</h1>
+         </div>
+         <div data-role="main" class="ui-conten">
+   <div>
+         <h2 align="center">DEFINICIÓN</h2>
+         <div align="center"><img src="imagenes/img8.png"width="40%" height="40%"></div>
+        <p> La huella ecológica (del inglés ecological footprint) es un indicador del impacto ambiental generado por la demanda humana que se hace de los recursos existentes en los ecosistemas del planeta, relacionándola con la capacidad ecológica de la Tierra de regenerar sus recursos.
+Representa el área de tierra o agua ecológicamente productivos (cultivos, pastos, bosques o ecosistemas acuáticos) e idealmente también el volumen de aire, necesarios para generar recursos y además para asimilar los residuos producidos por cada población determinada de acuerdo a su modo de vida, de forma indefinida. La medida puede realizarse a diferentes escalas: individuo (la huella ecológica de una persona), poblaciones (la huella ecológica de una ciudad, de una región, de un país...), comunidades (la huella ecológica de las sociedades agrícolas, de las sociedades industrializadas, etc).
+El objetivo fundamental de calcular las huellas ecológicas consiste en evaluar el impacto sobre el planeta de un determinado modo o forma de vida y compararlo con la biocapacidad del planeta. Se trata, pues, de un indicador clave para la sostenibilidad.</p>
+
+<div align="center"><img src="imagenes/img2.jpg"width="40%" height="40%">
+   		   </div>
+
+  <div data-role="content" align="center">
+           <div style="width:40%;">
+	<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+			<li class="ui-first-child ui-last-child">
+				<a href="http://www.tuhuellaecologica.org/" target="_self"  data-role="button" >
+					<h2>Info...</h2>
+				</a>
+				</li>
+	</ul>
+		</div>
+			</div>
+            </div>
+            
+         
+         </div>
+         <div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+           <h4>CUIDEMOS AL PLANETA</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+       </div>    
+   </div>
+         
+          <div data-role="page" id="page5" data-theme="b">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>DEARROLLO SUSTENTABLE</h1>
+         </div>
+         <div data-role="main" class="ui-conten">
+         <div>
+         <div>
+       		 <div align="center"><img src="imagenes/img28.jpg" width="40%" height="40%">
+   		   </div>
+         </div>
+         <h2>¿Qué es?</h2>
+         <p>El Desarrollo Sustentable obedece a la idea basica de satisfacer las necesidades de la sociedad actual sin comprometer la estabilidad del futuro, es decir, mantener un equilibro “Sustentable” entre las personas a fin de desarrollar estrategias en pro del bienestar del mundo. La palabra sostenible a sido cuestionada en virtud a que es diferentes países su significado varia en torno a lo que se mantiene estable. Se habla de sostenible cuando los recursos utilizados para mantener una estructura no se acabaran nunca, por lo que es seguro invertir, vivir, crear, desarrollar, explorar y mas en ese campo.</p>
+         <div align="center"><img src="imagenes/img21.jpg"width="40%" height="40%">
+   		   </div>
+         <p>El desarrollo Sustentable implica una importante <strong>relación</strong> entre diferentes áreas de una comunidad en las que se relacionan los aspectos culturales, económicos, sociales y ambientales, todo esto, enmarcado en un marco <strong>democrático y participativo</strong>, donde la política juega un papel demostrativo, dándole la oportunidad a la gente para <strong>confiar</strong> en ella. El desarrollo sustentable se basa en el crecimiento de toda la población, son ideas que evolucionan constantemente para que el individuo se sienta seguro con su entorno</p>
+         <div data-role="content" align="center">
+           <div style="width:40%;">
+	<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+			<li class="ui-first-child ui-last-child">
+				<a href="https://www.gestion.org/rsc/49175/que-es-el-desarrollo-sustentable/" target="_self" data-role="button" >
+					<h2>Más Info...</h2>
+				</a>
+			</li>
+	</ul>
+		</div>
+			</div>
+         </div>
+         </div>
+          <div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+           <h4>CUIDEMOS AL PLANETA</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+       </div>
+       </div>
+       
+        
+       
+        <div data-role="page" id="page7" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>Calentamiento global</h1>
+         </div>
+         <div data-role="main" class="ui-conten">
+   <div>
+        <p> El término Calentamiento Global se refiere al aumento gradual de las temperaturas de la atmósfera y océanos de la Tierra que se ha detectado en la actualidad, además de su continuo aumento que se proyecta a futuro.
+
+Nadie pone en duda el aumento de la temperatura global, lo que todavía genera controversia es la fuente y razón de este aumento de la temperatura. Aún así, la mayor parte de la comunidad científica asegura que hay más que un 90% de certeza que el aumento se debe al aumento de las concentraciones de gases de efecto invernadero por las actividades humanas que incluyen deforestación y la quema de combustibles fósiles como el petróleo y el carbón. Estas conclusiones son avaladas por las academias de ciencia de la mayoría de los países industrializados.</p>
+       <div align="center"><img src="imagenes/img11.jpg" width="40%" height="40%">
+   		   </div>
+
+	Un aumento de la temperatura global resultará en cambios como ya se están observando a nivel mundial, podemos enumerar:
+
+Aumento de los niveles del mar
+Cambios en el patrón y cantidad de precipitaciones
+Expansión de los desiertos subtropicales
+
+<div align="center"><img src="imagenes/img12.jpg" width="40%" height="40%">
+   		   </div>
+
+  <div data-role="content" align="center">
+           <div style="width:40%;">
+	<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+			<li class="ui-first-child ui-last-child">
+				<a href="http://cambioclimaticoglobal.com/que-es-el-calentamiento-global" target="_self"  data-role="button" >
+					<h2>Info...</h2>
+				</a>
+				</li>
+	</ul>
+		</div>
+			</div>
+            
+         
+         </div>
+         <div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+           <h4>CUIDEMOS AL PLANETA</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+       </div>    
+   </div>
+   </div>
+  
+  <div data-role="page" id="page8" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>ECOLOGÍA AMBIENTAL</h1>
+         </div>
+         <div data-role="main" class="ui-conten">
+   <div>
+         <h2 align="center">DEFINICIÓN</h2>
+        <p> La Ecología es una disciplina científica y, como tal, tiene como objetivo obtener conocimientos acerca de la realidad. Dado que esa realidad es compleja, a través del pensamiento científico intenta buscar leyes de cumplimiento universal, identificables a través de “regularidades” y basadas en hechos comprobables (y, por lo tanto, repetibles).</p>
+        Las principales ramas de estudio y de investigación en las que se divide la ecología son:
+
+Autoecología, Demoecología (Dinámica de la población),
+Sinecología (Ecología comunitaria),
+Agroecología, Ecofisiología (Ecología Ambiental) y
+Macroecología.
+El concepto de ecología humana se refiere al estudio científico de las relaciones entre los seres humanos y el medio ambiente, incluyendo las condiciones naturales, las interacciones y los aspectos económicos, psicológicos, sociales y culturales.
+
+La ecología es importante porque preserva y conserva el ambiente natural de las diferentes especies teniendo en cuenta las relaciones entre el ser humano y la biosfera.
+       <div align="center"><img src="imagenes/img21.jpg"width="40%" height="40%"></div>
+        <p>Para el Medio Ambiente, la ecología y el desarrollo sustentable la búsqueda de soluciones a los problemas ambientales,  es a menudo necesario la comprensión de un sistema y cambios que ocurren en él. La evaluación ambiental debe a menudo tratar con una variedad de sistemas que varían de lo simple a lo complejo. Considerando el enfoque de los problemas ambientales y la ecología aplicada, debemos ser capaces de entender los sistemas y cómo las diversas partes de los sistemas interactúan entre ellas.</p>
+
+<div align="center"><img src="imagenes/img22.png" width="40%" height="40%">
+   		   </div>
+
+  <div data-role="content" align="center">
+           <div style="width:40%;">
+	<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+			<li class="ui-first-child ui-last-child">
+				<a href="http://www.ege.fcen.uba.ar/academico/materias-de-grado/materias-del-ciclo-superior-primer-cuatrimestre/materias-del-area-ecologia/ecologia-ambiental/" target="_self"  data-role="button" >
+					<h2>Info...</h2>
+				</a>
+				</li>
+	</ul>
+		</div>
+			</div>
+            
+         
+         </div>
+         <div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+           <h4>CUIDEMOS AL PLANETA</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+       </div>    
+   </div>
+   </div>
+       
+       <div data-role="page" id="page6" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+          <h1>IMPACTO AMBIENTAL</h1>
+         </div>
+         <div data-role="main" class="ui-conten">
+   <div>
+         <h2 align="center">DEFINICIÓN</h2>
+         <div align="center"><img src="imagenes/img3.jpg"width="40%" height="40%">
+   		   </div>
+        <p> Se define impacto ambiental como la “Modificación del ambiente ocasionada por la acción del hombre o de la naturaleza”. Un huracán o un sismo pueden provocar impactos ambientales, sin embargo el instrumento Evaluación de Impacto Ambiental (EIA) se orienta a los impactos ambientales que eventualmente podrían ser provocados por obras o actividades que se encuentran en etapa de proyecto (impactos potenciales), o sea que no han sido iniciadas.  De aquí el carácter preventivo del instrumento.</p>
+
+<div align="center"><img src="imagenes/img10.jpg" width="40%" height="40%">
+   		   </div>
+
+  <div data-role="content" align="center">
+           <div style="width:40%;">
+	<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+			<li class="ui-first-child ui-last-child">
+				<a href="http://www.semarnat.gob.mx/temas/gestion-ambiental/impacto-ambiental-y-tipos" target="_self"  data-role="button" >
+					<h2>Info...</h2>
+				</a>
+				</li>
+	</ul>
+		</div>
+			</div>
+            
+         
+         </div>
+         <div>
+          <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+           <h4>CUIDEMOS AL PLANETA</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+       </div>    
+   </div>
+   
+   
+
+        
+       
+   
+      
+          
+    </body>
+ </html>
+
